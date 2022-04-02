@@ -40,7 +40,7 @@ button {
 }
 
 button#signUp {
-    background-color: var(--text-color);
+    background-color: var(--main-color);
     color: #FFF;
 }
 
@@ -55,13 +55,15 @@ button#signUp {
 
 .metricas-container {
     display: flex;
-    height: 288px;
-    width: 1440px;
-    left: 0px;
-    top: 487px;
-    border-radius: 0px;
-    padding: 0px, 0px, 96px, 0px;
+    gap: 64px;
+    justify-content: center;
+}
 
+.metricas-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
 }
 
 span {
@@ -84,6 +86,28 @@ h1 {
 
 }
 
+h2 {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--main-color);
+
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #101828;
+    
+}
+
 p {
     font-family: Inter;
     font-size: 20px;
@@ -92,5 +116,16 @@ p {
     letter-spacing: 0em;
     text-align: center;
     color: #667085;
+
+}
+
+.sup-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--text-color);
 
 }
