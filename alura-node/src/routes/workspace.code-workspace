@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"name": "2404-api-node-express",
+			"path": "../../2404-api-node-express"
+		}
+	],
+	"settings": {}
+}
