@@ -93,7 +93,7 @@ ol {
     
 }
 
-il {
+li {
     display: flex;
     height: 4em;
     width: 4em;
@@ -106,11 +106,11 @@ il {
     transition-duration: .3s;
 }
 
-il.selected {
+li.selected {
     background-color: var(--medium-grey);
     color: var(--very-dark-blue);
 }
-ol il:hover {
+ol li:hover {
     transition: ease-in-out;
     transition-duration: .3s;
     background-color: var(--orange);
