@@ -95,8 +95,8 @@ ol {
 
 li {
     display: flex;
-    height: 4em;
-    width: 4em;
+    height: 3.5em;
+    width: 3.5em;
     background-color: var(--dark-blue);
     border-radius: 50%;
     color: var(--light-grey);
@@ -122,7 +122,7 @@ button {
     font-family: "Overpass", sans-serif;
     color: var(--white);
     border: none;
-    height: 3.5em;
+    height: 3em;
     border-radius: 2em;
     font-size: 1em;
     letter-spacing: .1em;
