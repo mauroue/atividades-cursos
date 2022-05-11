@@ -1,0 +1,153 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+* {
+    font-family: "Overpass", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    font-size: 15px;
+    background: var(--very-dark-blue);
+}
+
+.card-container {
+    width: 350px;
+    height: 380px;
+    padding: 30px;
+    margin: auto;
+    background: radial-gradient(800px at top, var(--dark-blue), var(--very-dark-blue)) ;
+    background-blend-mode: darken;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+img.favorite-star {
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    border-color: var(--very-dark-blue);
+}
+
+img.thank-you {
+    height: 108px;
+    width: 162px;
+    align-self: center;
+    padding-top: 25px;
+}
+
+h1 {
+    color: var(--white);
+    padding: 1em 0 0 0;
+}
+
+h1.thank-you-title {
+    align-self: center;
+}
+
+p.description {
+    color: var(--light-grey);
+    padding-top: 1em;
+}
+
+p.description.thank-you {
+    text-align: center;
+    padding: 1em .3em;
+}
+
+p.thank-you-text {
+    color: var(--orange);
+    margin: 30px 0 0 0;
+    padding: .4em 2em;
+    border-radius: 20px;
+    background: var(--dark-blue);
+    align-self: center;
+}
+
+ol {
+    justify-content: space-around;
+    display: flex;
+    padding: 2em 0;
+    
+}
+
+il {
+    display: flex;
+    height: 4em;
+    width: 4em;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    color: var(--light-grey);
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+
+il.selected {
+    background-color: var(--medium-grey);
+    color: var(--very-dark-blue);
+}
+ol il:hover {
+    transition: ease-in-out;
+    transition-duration: .3s;
+    background-color: var(--orange);
+    color: var(--very-dark-blue);
+}
+
+button {
+    background-color: var(--orange);
+    font-family: "Overpass", sans-serif;
+    color: var(--white);
+    border: none;
+    height: 3.5em;
+    border-radius: 2em;
+    font-size: 1em;
+    letter-spacing: .1em;
+}
+
+button:hover {
+    background-color: hsl(25, 100%, 65%);
+    transition: ease-in-out;
+    transition-duration: .3s;
+}
+
+@media (max-width: 375px) {
+
+    .card-container {
+        width: 75vw;
+        height: 45vh;
+    }
+
+    ol il {
+        height: 3em;
+        width: 3em;
+    }
+    
+    ol il:hover {
+        background-color: var(--medium-grey);
+        color: var(--very-dark-blue);
+    }
+}
