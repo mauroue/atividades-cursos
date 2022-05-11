@@ -129,7 +129,8 @@ button {
 }
 
 button:hover {
-    background-color: hsl(25, 100%, 65%);
+    background-color: var(--white);
+    color: var(--orange);
     transition: ease-in-out;
     transition-duration: .3s;
 }
