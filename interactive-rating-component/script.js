@@ -1,4 +1,4 @@
-const elems = document.getElementsByTagName('il');
+const elems = document.getElementsByTagName('li');
 var selected;
 
 

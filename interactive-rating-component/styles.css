@@ -31,8 +31,8 @@ body {
 }
 
 .card-container {
-    width: 350px;
-    height: 380px;
+    width: 370px;
+    height: 370px;
     padding: 30px;
     margin: auto;
     background: radial-gradient(800px at top, var(--dark-blue), var(--very-dark-blue)) ;
