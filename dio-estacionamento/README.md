@@ -1,4 +1,4 @@
-<div align="center"><img src="https://hermes.digitalinnovation.one/tracks/a0fb3b13-3dd0-495e-8f07-77cc1a85991f.png"></div>
+<div align="center"><img src="https://hermes.digitalinnovation.one/tracks/a0fb3b13-3dd0-495e-8f07-77cc1a85991f.png" style="height=200px, width=200px"></div>
 <h1 align="center">Parking Calculator</h1>
 <p align="center"><strong>A simple time control for parking.</p>
 <br/>
