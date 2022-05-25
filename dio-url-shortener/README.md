@@ -1,4 +1,3 @@
-<div align="center"><img src=></div>
 <h1 align="center">URL shortener</h1>
 <p align="center"><strong>A simple URL shortener.</strong>
 <br>Project made for learning purposes, using typescript, express, mongoose and mongodb.</p>
