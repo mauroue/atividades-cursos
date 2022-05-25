@@ -3,9 +3,6 @@
 <br>Project made for learning purposes, using typescript, express, mongoose and mongodb.</p>
 <br/>
 
-<h2>About</h2>
-Project made from the source figma file: (https://www.figma.com/file/QG4cOExkdbIbhSfWJhs2gs/Travel-Journal?node-id=0%3A1)
-
 <h2>Goal and requirements</h2>
 
 The idea behind first implementation was to generate a hash using a url and return it using REST.
