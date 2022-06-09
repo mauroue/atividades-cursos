@@ -33,7 +33,7 @@
 
 //TODO: add delete list
 //TODO: fix spacing
-var apiKey: string = "3e062d4c11a1e9c671e7cc62f3f8fda8";
+var apiKey: string = "";
 let requestToken: string;
 let username: string;
 let password: string;

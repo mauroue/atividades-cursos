@@ -37,7 +37,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 // inicializando variaveis de login e session
 //TODO: add delete list
 //TODO: fix spacing
-var apiKey = "3e062d4c11a1e9c671e7cc62f3f8fda8";
+var apiKey = "";
 let requestToken;
 let username;
 let password;
