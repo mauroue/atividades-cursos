@@ -33,10 +33,10 @@
 
 //TODO: add delete list
 //TODO: fix spacing
-var apiKey: string = "";
+var apiKey: string = process.env.API_KEY as string;
 let requestToken: string;
-let username: string;
-let password: string;
+let username: string = process.env.LOGIN_USERNAME as string;
+let password: string = process.env.LOGIN_PASSWORD as string;
 let sessionId: string;
 let listId: string;
 let accountId: string;
@@ -93,11 +93,6 @@ const triggerBtn = () => {
     document.getElementById('btn-trigger-modal')?.click()
 }
 
-function loginIn() {
-    password = (document.getElementById('inputPassword')! as HTMLInputElement).value;
-    username =  (document.getElementById('inputEmail')! as HTMLInputElement).value;
-}
-
 searchInput.addEventListener('keypress', function(event) {
     if (event.key === "Enter") {
         event.preventDefault();
@@ -108,7 +103,6 @@ searchInput.addEventListener('keypress', function(event) {
 // adiciona eventlistener no botao de login
 loginButton.addEventListener('click', async (e) => {
     e.preventDefault();
-    loginIn();
     await criarRequestToken();
     await logar();
     await criarSessao();
