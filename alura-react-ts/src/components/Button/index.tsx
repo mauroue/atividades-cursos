@@ -9,7 +9,7 @@ interface Props {
 
 const Button = ({ onClick, type, children }: Props) => {
   return (
-    <button onClick={onClick} type={type} className={style.botao}>
+    <button onClick={onClick} type={type} className={style.button}>
       {children}
     </button>
   );
